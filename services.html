@@ -826,14 +826,14 @@
 </script>
   
   <main>
-    <section class="services-page-hero-section" data-layout-spec="Services-page-hero">
+    <section class="services-page-hero-section" data-layout-spec="Services-page-hero" style="margin-top: -102px !important; padding-top: 102px !important;" id="zappy-section-0">
   <div class="services-page-hero-container">
     <div class="services-page-hero-content">
       <h1 class="services-page-hero-title">Luxury Design Services by Shadazzle Strawberry Diamond Creations™<br></h1>
       <p class="services-page-hero-text">Choose one custom service or bundle multiple services together for a complete luxury brand look. Every design is created to shine online, in print, and in person.<br></p>
     </div>
     <div class="services-page-hero-image-wrapper">
-      <img data-placeholder="services-page-hero-image-1" data-context="Extreme close-up macro photograph of luxury holographic vinyl sticker edge with metallic foil accent, showing the prismatic rainbow shimmer and sharp die-cut edge detail against a dark velvet background, high-end product photography with dramatic side lighting highlighting the foil texture and holographic sparkle, shallow depth of field, premium branding materials" width="600" height="700" src="/assets/site-services-page-hero-image-1.webp" alt="Luxury holographic vinyl sticker with metallic foil edge detail">
+      <div data-zappy-zoom-wrapper="true" data-element-id="img-1773346626223-31joao4tn" data-element-type="image" data-zappy-zoom-wrapper-width="380px" data-zappy-zoom-wrapper-height="253px" data-zappy-zoom-wrapper-width-mode="px" style="position: relative !important; overflow: visible !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: auto !important; display: block !important; min-height: 150px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img data-placeholder="services-page-hero-image-1" data-context="Extreme close-up macro photograph of luxury holographic vinyl sticker edge with metallic foil accent, showing the prismatic rainbow shimmer and sharp die-cut edge detail against a dark velvet background, high-end product photography with dramatic side lighting highlighting the foil texture and holographic sparkle, shallow depth of field, premium branding materials" width="600" height="700" src="/assets/business-general-service-upload-1773346681263.webp" alt="Luxury holographic vinyl sticker with metallic foil edge detail" data-element-type="image" data-element-id="img-1773346626223-31joao4tn" class="zappy-editable-image" data-resize-handler-attached="true" style="object-position: 43% 74%; object-fit: cover !important; width: 100% !important; height: auto !important; max-width: 100% !important; display: block; border-radius: 8px; margin: 0px !important; position: relative !important; max-height: 300px !important;" data-zappy-zoom="0.5"></div>
     </div>
   </div>
   <div class="services-page-hero-divider-wrapper">
@@ -1208,6 +1208,34 @@
       if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileLangMenu); }
       else { initMobileLangMenu(); }
       window.addEventListener('resize', function() { clearTimeout(window._mlrt); window._mlrt = setTimeout(initMobileLangMenu, 250); });
+    })();
+    </script>
+
+    <script>
+    (function(){
+      if(window.innerWidth>768)return;
+      function fixZW(){
+        document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){
+          var cw=w.style.getPropertyValue('width');
+          if(!cw||cw==='100%')return;
+          w.style.setProperty('width','100%','important');
+          w.style.setProperty('max-width','100%','important');
+          w.style.setProperty('height','auto','important');
+          var img=w.querySelector('img');
+          if(img){
+            img.style.setProperty('position','relative','important');
+            img.style.setProperty('width','100%','important');
+            img.style.setProperty('height','auto','important');
+            img.style.setProperty('max-width','100%','important');
+            img.style.setProperty('max-height','400px','important');
+            img.style.setProperty('object-fit','cover','important');
+            img.style.setProperty('left','0','important');
+            img.style.setProperty('top','0','important');
+          }
+        });
+      }
+      if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',fixZW);
+      else setTimeout(fixZW,50);
     })();
     </script>
 </body>
