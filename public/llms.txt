@@ -1,0 +1,79 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### Home
+https://example.com
+Experience opulent custom stickers and branding materials with our signature pink, red, and diamond sparkle aesthetic. Elevate your brand with luxury design.
+
+### Services
+https://example.com/services
+From dazzling logo creators to flyer design experts, discover our full suite of high-end branding services. Transform your vision into sparkling reality today.
+
+### Gallery
+https://example.com/gallery
+Browse our gallery of luxurious stickers, logos, and branding masterpieces. See how we blend pink elegance with diamond sparkle for unforgettable designs.
+
+### Contact
+https://example.com/contact
+Ready for eye-catching branding that dazzles? Connect with our expert logo creators and sticker designers. Let&#39;s craft your glamorous brand identity together.
+
+### Products
+https://example.com/products
+Our Products - Shadazzle Strawberry Diamond Creations
+
+### Cart
+https://example.com/cart
+Your Cart
+
+### Checkout
+https://example.com/checkout
+Checkout
+
+### Login
+https://example.com/login
+Customer Login
+
+### Account
+https://example.com/account
+My Account
+
+### Order Success
+https://example.com/order-success
+Thank you for your order
+
+### Product Detail
+https://example.com/product/:slug
+Product Details - Shadazzle Strawberry Diamond Creations
+
+### Category
+https://example.com/category/:slug
+Products - Shadazzle Strawberry Diamond Creations
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
