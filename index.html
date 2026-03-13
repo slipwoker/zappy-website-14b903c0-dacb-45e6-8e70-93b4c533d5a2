@@ -779,7 +779,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '2832232072';
+          : '[business_phone]';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -1072,7 +1072,7 @@
     <div class="footer-top">
       <div class="footer-column footer-about">
         <img src="/assets/shadazzle-strawberry-diamond-creations-custom-design-and-printing-logo.webp" alt="Shadazzle Strawberry Diamond Creations" class="logo">
-        <p class="footer-tagline">Shadazzle Strawberry Diamond Creations™ specializes in luxury custom stickers, branding designs, and eye-catching graphics that help businesses stand out. Every project is crafted with creativity, precision, and signature sparkle.<br></p>
+        <p class="footer-tagline">Bringing your creative visions to life with custom design and premium printing services.</p>
       </div>
       
       <div class="footer-column footer-links">
@@ -1087,18 +1087,18 @@
       <div class="footer-column footer-contact">
         <h3 class="footer-heading">Contact Us</h3>
         <ul class="contact-list">
-          <li><i class="fas fa-envelope"></i> <a href="mailto:ShadazzleStrawberry@gmail.com">ShadazzleStrawberry@gmail.com</a></li>
-          <li><i class="fas fa-phone"></i> <a href="tel:2832232072">2832232072</a></li>
-          <li><a href="/"><i class="fas fa-map-marker-alt"></i> <span>1900 vine st , Cincinnati, Cincinnati, Oh, 45202, Hamilton</span></a></li>
+          <li><i class="fas fa-envelope"></i> <a href="mailto:[business_email]">[business_email]</a></li>
+          <li><i class="fas fa-phone"></i> <a href="tel:[business_phone]">[business_phone]</a></li>
+          <li><a href="/"><i class="fas fa-map-marker-alt"></i> <span>[business_address]</span></a></li>
         </ul>
       </div>
       
       <div class="footer-column footer-social">
         <h3 class="footer-heading">Follow Us</h3>
         <div class="social-links">
-          <a href="#" aria-label="Facebook" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" aria-label="Instagram" style="display:none !important;"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="WhatsApp" style="display:none !important;"><i class="fab fa-whatsapp"></i></a>
+          <a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
     </div>
